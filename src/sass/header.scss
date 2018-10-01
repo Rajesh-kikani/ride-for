@@ -1,0 +1,34 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background: $fc-white;
+    .rs-navber-main {
+        padding: 20px 0px;
+        .navbar-brand {
+            display: block;
+            img {
+                height: 71px;
+            }
+        }
+        .ts-call-btn-main {
+            .taxi-call-btn {
+                display: block;
+                background: $primary-main;
+                padding: 10px 35px 10px 15px;
+                font-size: 12px;
+                font-weight: $fw-Bold;
+                color: $fc-white;
+                border-radius: 4px;
+                span {
+                    font-size: 15px;
+                    font-weight: $fw-Bold;
+                    color: $fc-white;
+                    display: block;
+                }
+            }
+        }
+    }
+}

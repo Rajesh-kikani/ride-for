@@ -1,0 +1,201 @@
+#rs-page-index {
+    .rs-banner-main {
+        padding-top: 150px;
+        background-position: bottom center;
+        background: url(../img/banner-img.png)no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        .rs-text-and-img-main {
+            h1 {
+                font-weight: $fw-Black;
+                font-size: 65px;
+                text-transform: uppercase;
+                color: $fc-main;
+                letter-spacing: -4px!important;
+                line-height: 48px;
+                span {
+                    color: $primary-main;
+                }
+            }
+            h3 {
+                font-weight: $fw-Bold;
+                font-size: 35px;
+                color: $fc-main;
+                line-height: 23px;
+                letter-spacing: -3px!important;
+            }
+            .rs-text-padding {
+                padding: 30px 0 40px;
+                h4 {
+                    font-weight: $fw-SemiBold;
+                    font-size: 18px;
+                    color: $fc-grey;
+                    letter-spacing: -1px!important;
+                    margin-bottom: 15px;
+                    span {
+                        font-weight: $fw-Bold;
+                        color: #6B6B6B;
+                    }
+                }
+            }
+            img {
+                text-align: center;
+            }
+        }
+        .sr-btn-listing-main {
+            .sr-buts-list {
+                display: inline-block;
+                margin-right: 15px;
+                a {
+                    display: flex;
+                    padding: 12px 35px 12px 17px;
+                    background: $fc-main;
+                    position: relative;
+                    text-align: center;
+                    border-radius: 4px;
+                    align-items: center;
+                    i {
+                        display: block;
+                        width: 25px;
+                        height: 31px;
+                    }
+                    .apple {
+                        background: url(../img/apple.svg)no-repeat;
+                    }
+                    .android {
+                        background: url(../img/android.svg)no-repeat;
+                    }
+                    .sr-app-btn-main {
+                        margin-left: 8px;
+                        span {
+                            display: block;
+                            font-size: 12px;
+                            font-weight: $fw-Medium;
+                            color: $fc-white;
+                        }
+                        label {
+                            display: block;
+                            font-size: 15px;
+                            font-weight: $fw-Bold;
+                            color: $fc-white;
+                            margin-bottom: 0;
+                        }
+                    }
+                    &:hover {
+                        background: $primary-main;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .sr-mobile-image-main {
+            margin: 0 auto;
+            overflow: hidden;
+            width: 475px;
+            img {
+                object-fit: cover;
+                object-position: center center;
+                height: 100%;
+            }
+        }
+    }
+    // ----sections-02---
+    .rs-features-main {
+        .rs-title-main-text {
+            p {
+                max-width: 530px;
+                letter-spacing: -1px;
+                margin-top: 15px;
+            }
+        }
+        .rs-features-listing-main {
+            padding: 45px 0;
+            .sr-listing-main {
+                display: flex;
+                margin-bottom: 35px;
+                .rs-border-main {
+                    border-radius: 4px;
+                    border: 1px dashed $bor-c-bg;
+                    width: 76px;
+                    height: 76px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    i {
+                        width: 30px;
+                        height: 30px;
+                        background-position: center center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        &.rs-tracking {
+                            background-image: url(../img/tracking.svg);
+                        }
+                        &.rs-splash {
+                            background-image: url(../img/splash.svg);
+                        }
+                        &.rs-verification {
+                            background-image: url(../img/verification.svg);
+                        }
+                        &.rs-login {
+                            background-image: url(../img/login.svg);
+                        }
+                        &.rs-book-trip {
+                            background-image: url(../img/book.svg);
+                        }
+                        &.rs-application {
+                            background-image: url(../img/application.svg);
+                        }
+                        &.rs-driver {
+                            background-image: url(../img/driver-get.svg);
+                        }
+                        &.rs-rider {
+                            background-image: url(../img/rider.svg);
+                        }
+                    }
+                }
+                .rs-title-listing {
+                    width: calc(100% - 76px);
+                    margin-left: 15px;
+                    p {
+                        letter-spacing: -0.7px;
+                    }
+                }
+                &:hover {
+                    .rs-border-main {
+                        border: 1px dashed $primary-main;
+                    }
+                    h3 {
+                        color: $primary-main;
+                        transition: all 0.3s linear 0s !important;
+                    }
+                    i {
+                        &.rs-tracking {
+                            background-image: url(../img/tracking-ho.svg);
+                        }
+                        &.rs-splash {
+                            background-image: url(../img/splash-ho.svg);
+                        }
+                        &.rs-verification {
+                            background-image: url(../img/Verification-ho.svg);
+                        }
+                        &.rs-login {
+                            background-image: url(../img/login-ho.svg);
+                        }
+                        &.rs-book-trip {
+                            background-image: url(../img/book-ho.svg);
+                        }
+                        &.rs-application {
+                            background-image: url(../img/application-ho.svg);
+                        }
+                        &.rs-driver {
+                            background-image: url(../img/driver-get-ho.svg);
+                        }
+                        &.rs-rider {
+                            background-image: url(../img/rider-ho.svg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

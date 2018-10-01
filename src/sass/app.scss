@@ -1,0 +1,79 @@
+    // Fonts
+    @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+    // Variables
+    @import "variables";
+    // Bootstrap
+    @import "~bootstrap/scss/bootstrap";
+    main {}
+    
+    // @import "cover";
+    @import "header";
+    @import "index";
+    @import "footer";
+    @import "font-awesome";
+    @import "about";
+    @import "datatable";
+    @import "contact-us";
+    // --------common-css---
+    body {
+        font-family: 'Catamaran'!important;
+    }
+    
+    button,
+    a {
+        cursor: pointer;
+        transition: all 0.3s linear 0s !important;
+        -webkit-transition: all 0.3s linear 0s !important;
+        -moz-transition: all 0.3s linear 0s !important;
+        -o-transition: all 0.3s linear 0 !important;
+        display: block;
+        text-decoration: none !important;
+        &:focus,
+        &:hover,
+        &:active {
+            outline: none !important;
+            text-decoration: none;
+            box-shadow: none !important;
+            opacity: 0.5;
+        }
+    }
+    
+    .btn-primary {
+        background: $primary-main;
+        font-weight: $fw-Bold;
+        font-size: 15px;
+        color: $fc-white;
+        padding: 14px 30px;
+        border-radius: 4px;
+        border: none !important;
+        &:hover {
+            background: $fc-main;
+            border: none !important;
+        }
+    }
+    
+    p {
+        font-size: 15px;
+        font-weight: $fw-Regular;
+        letter-spacing: 0.9px;
+        color: $fc-grey;
+        line-height: 25px;
+    }
+    
+    h2 {
+        font-weight: $fw-Bold;
+        font-size: 45px;
+        letter-spacing: -3px!important;
+        color: $fc-black;
+    }
+    
+    h3 {
+        font-weight: $fw-Bold;
+        font-size: 18px;
+        letter-spacing: -1.1px!important;
+        color: $fc-black;
+    }
+    
+    .sr-padding {
+        padding: 100px 0 !important;
+    }

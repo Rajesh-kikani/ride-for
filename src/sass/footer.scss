@@ -1,0 +1,43 @@
+footer {
+    background: $fc-bg;
+    padding: 24px 0;
+    .rs-footer-main {
+        display: block;
+        img {
+            height: 27px;
+        }
+    }
+    .rs-social-main {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        ul {
+            display: flex;
+            margin: 0;
+            li {
+                display: flex;
+                a {
+                    height: 24px;
+                    width: 24px;
+                    margin: 0 7px;
+                    background-size: 100% !important;
+                    &.fd {
+                        background: url(../img/facebook.svg);
+                    }
+                    &.tw {
+                        background: url(../img/twitter.svg);
+                    }
+                    &.gp {
+                        background: url(../img/google-plus.svg);
+                    }
+                    &.in {
+                        background: url(../img/linkedin.svg);
+                    }
+                    &.im {
+                        background: url(../img/instagram.svg);
+                    }
+                }
+            }
+        }
+    }
+}
