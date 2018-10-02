@@ -7,29 +7,13 @@ header {
   }
   .rs-header-right {
     .rs-btn-header-call {
-      font-weight: 700;
-      font-size: 15px;
-      color: $fc-white;
-      padding: 14px 30px;
-      border: none !important;
-      &:hover {
-        background: $fc-main;
-        border: none !important;
-      }
-    }
-
-    .rs-btn-header-call {
-      display: block;
-      background: $primary;
-      padding: 10px 35px 10px 15px;
+      text-align: left;
+      padding: 15px 35px 10px 15px;
       font-size: 12px;
       font-weight: 700;
-      color: $fc-white;
-      // border-radius: 4px;
       span {
         font-size: 15px;
         font-weight: 700;
-        color: $fc-white;
         display: block;
       }
     }

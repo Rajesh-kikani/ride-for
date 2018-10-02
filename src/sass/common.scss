@@ -1,53 +1,53 @@
 // --------common-css---
 body {
-  font-family: "Catamaran" !important;
+  font-family: "Catamaran";
 }
 
-button,
-a {
-  cursor: pointer;
-  transition: all 0.3s linear 0s !important;
-  -webkit-transition: all 0.3s linear 0s !important;
-  -moz-transition: all 0.3s linear 0s !important;
-  -o-transition: all 0.3s linear 0 !important;
-  display: block;
-  text-decoration: none !important;
-  &:focus,
-  &:hover,
-  &:active {
-    outline: none !important;
-    text-decoration: none;
-    box-shadow: none !important;
-    opacity: 0.5;
-  }
-}
+// button,
+// a {
+//   cursor: pointer;
+//   transition: all 0.3s linear 0s !important;
+//   -webkit-transition: all 0.3s linear 0s !important;
+//   -moz-transition: all 0.3s linear 0s !important;
+//   -o-transition: all 0.3s linear 0 !important;
+//   display: block;
+//   text-decoration: none !important;
+//   &:focus,
+//   &:hover,
+//   &:active {
+//     outline: none !important;
+//     text-decoration: none;
+//     box-shadow: none !important;
+//     opacity: 0.5;
+//   }
+// }
 
 
-p {
-  font-size: 15px;
-  font-weight: $fw-Regular;
-  color: $fc-grey;
-  letter-spacing: -0.8px !important;
-  line-height: 25px;
-  margin: 0;
-}
+// p {
+//   font-size: 15px;
+//   font-weight: $fw-Regular;
+//   color: $fc-grey;
+//   letter-spacing: -0.8px !important;
+//   line-height: 25px;
+//   margin: 0;
+// }
 
-h2 {
-  font-weight: 700;
-  font-size: 45px;
-  letter-spacing: -3px !important;
-  color: $fc-black;
-}
+// h2 {
+//   font-weight: 700;
+//   font-size: 45px;
+//   letter-spacing: -3px !important;
+//   color: $fc-black;
+// }
 
-h3 {
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: -1.1px !important;
-  color: $fc-black;
-}
+// h3 {
+//   font-weight: 700;
+//   font-size: 18px;
+//   letter-spacing: -1.1px !important;
+//   color: $fc-black;
+// }
 
 .rs-padding {
-  padding: 100px 0 50px !important;
+  padding: 100px 0 50px;
 }
 
 // ------app-btns-all
