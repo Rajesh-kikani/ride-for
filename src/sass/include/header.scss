@@ -14,8 +14,20 @@ header {
                 height: 71px;
             }
         }
-        .ts-call-btn-main {
-            .taxi-call-btn {
+        .rs-header-right {
+            .rs-btn-header-call {
+                font-weight: $fw-Bold;
+                font-size: 15px;
+                color: $fc-white;
+                padding: 14px 30px;
+                border: none !important;
+                &:hover {
+                  background: $fc-main;
+                  border: none !important;
+                }
+              }
+
+            .rs-btn-header-call {
                 display: block;
                 background: $primary;
                 padding: 10px 35px 10px 15px;

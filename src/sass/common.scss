@@ -1,4 +1,7 @@
-
+// --------common-css---
+body {
+  font-family: "Catamaran" !important;
+}
 
 button,
 a {
@@ -19,17 +22,6 @@ a {
   }
 }
 
-.btn-primary {
-  font-weight: $fw-Bold;
-  font-size: 15px;
-  color: $fc-white;
-  padding: 14px 30px;
-  border: none !important;
-  &:hover {
-    background: $fc-main;
-    border: none !important;
-  }
-}
 
 p {
   font-size: 15px;
