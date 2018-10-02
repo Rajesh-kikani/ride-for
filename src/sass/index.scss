@@ -14,7 +14,7 @@
                 letter-spacing: -4px!important;
                 line-height: 48px;
                 span {
-                    color: $primary-main;
+                    color: $primary;
                 }
             }
             h3 {
@@ -42,52 +42,7 @@
                 text-align: center;
             }
         }
-        .sr-btn-listing-main {
-            .sr-buts-list {
-                display: inline-block;
-                margin-right: 15px;
-                a {
-                    display: flex;
-                    padding: 12px 35px 12px 17px;
-                    background: $fc-main;
-                    position: relative;
-                    text-align: center;
-                    border-radius: 4px;
-                    align-items: center;
-                    i {
-                        display: block;
-                        width: 25px;
-                        height: 31px;
-                    }
-                    .apple {
-                        background: url(../img/apple.svg)no-repeat;
-                    }
-                    .android {
-                        background: url(../img/android.svg)no-repeat;
-                    }
-                    .sr-app-btn-main {
-                        margin-left: 8px;
-                        span {
-                            display: block;
-                            font-size: 12px;
-                            font-weight: $fw-Medium;
-                            color: $fc-white;
-                        }
-                        label {
-                            display: block;
-                            font-size: 15px;
-                            font-weight: $fw-Bold;
-                            color: $fc-white;
-                            margin-bottom: 0;
-                        }
-                    }
-                    &:hover {
-                        background: $primary-main;
-                        opacity: 1;
-                    }
-                }
-            }
-        }
+        .sr-btn-listing-main {}
         .sr-mobile-image-main {
             margin: 0 auto;
             overflow: hidden;
@@ -109,7 +64,7 @@
             }
         }
         .rs-features-listing-main {
-            padding: 45px 0;
+            padding: 45px 0 0;
             .sr-listing-main {
                 display: flex;
                 margin-bottom: 35px;
@@ -145,11 +100,29 @@
                         &.rs-application {
                             background-image: url(../img/application.svg);
                         }
-                        &.rs-driver {
+                        &.rs-driver-get {
                             background-image: url(../img/driver-get.svg);
                         }
                         &.rs-rider {
                             background-image: url(../img/rider.svg);
+                        }
+                        &.rs-driver {
+                            background-image: url(../img/Driver.svg);
+                        }
+                        &.rs-invoice {
+                            background-image: url(../img/invoice.svg);
+                        }
+                        &.rs-review-rating {
+                            background-image: url(../img/review.svg);
+                        }
+                        &.rs-edit-profile {
+                            background-image: url(../img/edit-profile.svg);
+                        }
+                        &.rs-booking-history {
+                            background-image: url(../img/edit-profile.svg);
+                        }
+                        &.rs-driver-manage {
+                            background-image: url(../img/driver-app-manage.svg);
                         }
                     }
                 }
@@ -162,10 +135,10 @@
                 }
                 &:hover {
                     .rs-border-main {
-                        border: 1px dashed $primary-main;
+                        border: 1px dashed $blue;
                     }
                     h3 {
-                        color: $primary-main;
+                        color: $blue;
                         transition: all 0.3s linear 0s !important;
                     }
                     i {
@@ -187,15 +160,94 @@
                         &.rs-application {
                             background-image: url(../img/application-ho.svg);
                         }
-                        &.rs-driver {
+                        &.rs-driver-get {
                             background-image: url(../img/driver-get-ho.svg);
                         }
                         &.rs-rider {
                             background-image: url(../img/rider-ho.svg);
                         }
+                        &.rs-driver {
+                            background-image: url(../img/Driver-ho.svg);
+                        }
+                        &.rs-invoice {
+                            background-image: url(../img/invoice-ho.svg);
+                        }
+                        &.rs-review-rating {
+                            background-image: url(../img/review-ho.svg);
+                        }
+                        &.rs-edit-profile {
+                            background-image: url(../img/edit-profile-ho.svg);
+                        }
+                        &.rs-booking-history {
+                            background-image: url(../img/edit-profile-ho.svg);
+                        }
+                        &.rs-driver-manage {
+                            background-image: url(../img/driver-app-manage-ho.svg);
+                        }
                     }
                 }
             }
+        }
+    }
+    // ------sections-3---
+    .rs-download-app {
+        background: $bg-c;
+        .rs-download-title-main {
+            p {
+                letter-spacing: -0.8px;
+            }
+        }
+        .rs-apps-btns-listing {
+            padding: 60px 0;
+            border-bottom: 1px solid $border;
+            .rs-apps-listing-main {
+                p {
+                    margin: 18px 0;
+                }
+                .sr-buts-list {
+                    margin-right: 0;
+                    padding: 18px 0 0;
+                }
+            }
+        }
+        .rs-admin-panel-main {
+            padding: 60px 0;
+            .rs-admin-panel {
+                form {
+                    .form-group {
+                        .form-control {
+                            background: $fc-white;
+                        }
+                    }
+                }
+                .btn-primary {
+                    padding: 14px 46px;
+                }
+            }
+        }
+    }
+    // ------rs-padding rs-lets-go-main
+    .rs-lets-go-main {
+        .rs-never-miss-main {
+            h2 {
+                max-width: 447px !important;
+            }
+            p {
+                max-width: 467px !important;
+            }
+            .rs-never-main {
+                margin-top: 40px;
+            }
+        }
+        .rs-slider-main {
+            background: $blue;
+            padding: 50px 0;
+        }
+        // ----------
+        .rs-contact-form-with-main {
+            padding: 60px 0;
+            border-top: 1px solid $border;
+            .rs-contact-main {}
         }
     }
 }
