@@ -26,9 +26,9 @@ mix.combine(
 
 mix.combine(
     [
+        // "src/vendor/font/style.css",
         "src/vendor/animate/animate.css",
         "src/vendor/dataTables/datatables.min.css",
-        "src/vendor/font-awesome/css/style.css",
         "src/vendor/jqueryui/jquery-ui.min.css",
         //"src/vendor/sweetalert/sweetalert.css"
     ],
@@ -37,7 +37,7 @@ mix.combine(
 
 mix.sass("src/sass/app.scss", "dist/css");
 
-mix.copyDirectory("src/vendor/font-awesome/fonts", "dist/fonts");
+mix.copyDirectory("src/vendor/fonts", "dist/fonts");
 
 // mix.sourceMaps();
 mix.setPublicPath("dist");

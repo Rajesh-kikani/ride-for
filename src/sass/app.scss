@@ -1,20 +1,25 @@
-    // Fonts
-    @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-    // Variables
-    @import "_variables";
-    // Bootstrap
-    @import "~bootstrap/scss/bootstrap";
-    // @import "cover";
-    @import "header";
-    @import "index";
-    @import "footer";
-    @import "font-awesome";
-    @import "about";
-    @import "datatable";
-    @import "contact-us";
-    @import "common";
-    @import "rs_variables";
-    // --------common-css---
-    body {
-        font-family: 'Catamaran'!important;
-    }
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Variables
+@import "_variables";
+@import "_rs_variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// @import "cover";
+@import "include/header";
+@import "include/footer";
+
+@import "index";
+
+@import "font-awesome";
+@import "about";
+@import "datatable";
+@import "contact-us";
+@import "common";
+
+// --------common-css---
+body {
+  font-family: "Catamaran" !important;
+}
