@@ -29,11 +29,11 @@
                 h4 {
                     font-weight: 600;
                     font-size: 18px;
-                    color: $fc-grey;
+                    // color: $fc-grey;
                     letter-spacing: -0.9px!important;
                     span {
                         font-weight: 700;
-                        color: $fc-black;
+                        color: $black;
                     }
                 }
             }
@@ -210,7 +210,7 @@
                 form {
                     .form-group {
                         .form-control {
-                            background: $fc-white;
+                            background: $white;
                         }
                     }
                 }
@@ -263,7 +263,7 @@
             z-index: -1;
         }
         .rs-titles-all-second {
-            color: $fc-white;
+            color: $white;
         }
         .rs-all-paragraph-font {
             max-width: 467px;
@@ -281,17 +281,17 @@
                 }
                 .rs-our-listing-main {
                     margin-left: 18px;
-                    border-left: 2px dotted $fc-white;
+                    border-left: 2px dotted $white;
                     padding-left: 18px;
                     .rs-all-paragraph-font {
-                        color: $fc-grey;
+                        // color: $fc-grey;
                         line-height: 20px;
                     }
                     h4 {
                         font-size: 25px;
                         font-weight: 500;
                         letter-spacing: -1.5px;
-                        color: $fc-white;
+                        color: $white;
                         line-height: 16px;
                         margin: 0;
                     }
