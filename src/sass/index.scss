@@ -1,20 +1,20 @@
 #rs-page-index {
     .rs-banner-main {
-        padding-top: 150px;
+        padding-top: 100px;
         background-position: bottom center;
         background: url(../img/banner-img.png)no-repeat;
         background-size: cover;
         min-height: 100vh;
         .rs-text-and-img-main {
             h1 {
-                font-weight: $fw-Black;
+                font-weight: 800;
                 font-size: 65px;
                 text-transform: uppercase;
                 color: $fc-main;
                 letter-spacing: -4px!important;
                 line-height: 48px;
                 span {
-                    color: $primary;
+                    color: $blue;
                 }
             }
             h3 {
@@ -27,14 +27,13 @@
             .rs-text-padding {
                 padding: 30px 0 40px;
                 h4 {
-                    font-weight: $fw-SemiBold;
+                    font-weight: 600;
                     font-size: 18px;
                     color: $fc-grey;
-                    letter-spacing: -1px!important;
-                    margin-bottom: 15px;
+                    letter-spacing: -0.9px!important;
                     span {
                         font-weight: 700;
-                        color: #6B6B6B;
+                        color: $fc-black;
                     }
                 }
             }
@@ -42,15 +41,11 @@
                 text-align: center;
             }
         }
-        .sr-btn-listing-main {}
-        .sr-mobile-image-main {
-            margin: 0 auto;
-            overflow: hidden;
-            width: 475px;
+        .rs-mobile-image-main {
+            display: flex;
+            justify-content: center;
             img {
-                object-fit: cover;
-                object-position: center center;
-                height: 100%;
+                height: 598px;
             }
         }
     }
@@ -59,13 +54,12 @@
         .rs-title-main-text {
             p {
                 max-width: 530px;
-                letter-spacing: -1px;
                 margin-top: 15px;
             }
         }
         .rs-features-listing-main {
             padding: 45px 0 0;
-            .sr-listing-main {
+            .rs-listing-main {
                 display: flex;
                 margin-bottom: 35px;
                 .rs-border-main {
@@ -204,7 +198,7 @@
                 p {
                     margin: 18px 0;
                 }
-                .sr-buts-list {
+                .rs-buts-list {
                     margin-right: 0;
                     padding: 18px 0 0;
                 }
@@ -229,6 +223,7 @@
     // ------rs-padding rs-lets-go-main
     .rs-lets-go-main {
         .rs-never-miss-main {
+            padding-bottom: 30px;
             h2 {
                 max-width: 447px !important;
             }
@@ -239,15 +234,69 @@
                 margin-top: 40px;
             }
         }
-        .rs-slider-main {
-            background: $blue;
-            padding: 50px 0;
-        }
         // ----------
         .rs-contact-form-with-main {
             padding: 60px 0;
             border-top: 1px solid $border;
-            .rs-contact-main {}
+            .rs-contact-main {
+                .rs-name-listing {
+                    padding: 30px 0;
+                }
+            }
+        }
+    }
+    // ----rs-our-fun-facts
+    .rs-our-fun-facts {
+        background: url(../img/our-fun-cars.png)no-repeat;
+        background-size: cover;
+        z-index: 10;
+        position: relative;
+        padding: 100px 0;
+        &::before {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            content: "";
+            background-color: rgba(0, 0, 0, 0.90);
+            position: absolute;
+            z-index: -1;
+        }
+        .rs-titles-all-second {
+            color: $fc-white;
+        }
+        .rs-all-paragraph-font {
+            max-width: 467px;
+            margin: 0 auto;
+        }
+        .rs-images-and-listin-main {
+            padding: 65px 0 0;
+            .rs-our-fun-facts-listing-main {
+                display: flex;
+                align-items: center;
+                .rs-images-listing {
+                    img {
+                        height: auto;
+                    }
+                }
+                .rs-our-listing-main {
+                    margin-left: 18px;
+                    border-left: 2px dotted $fc-white;
+                    padding-left: 18px;
+                    .rs-all-paragraph-font {
+                        color: $fc-grey;
+                        line-height: 20px;
+                    }
+                    h4 {
+                        font-size: 25px;
+                        font-weight: 500;
+                        letter-spacing: -1.5px;
+                        color: $fc-white;
+                        line-height: 16px;
+                        margin: 0;
+                    }
+                }
+            }
         }
     }
 }

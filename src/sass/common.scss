@@ -1,125 +1,123 @@
 // --------common-css---
 body {
-  font-family: "Catamaran";
+    font-family: "Catamaran";
 }
 
-// button,
-// a {
-//   cursor: pointer;
-//   transition: all 0.3s linear 0s !important;
-//   -webkit-transition: all 0.3s linear 0s !important;
-//   -moz-transition: all 0.3s linear 0s !important;
-//   -o-transition: all 0.3s linear 0 !important;
-//   display: block;
-//   text-decoration: none !important;
-//   &:focus,
-//   &:hover,
-//   &:active {
-//     outline: none !important;
-//     text-decoration: none;
-//     box-shadow: none !important;
-//     opacity: 0.5;
-//   }
-// }
+button,
+a {
+    cursor: pointer;
+    transition: all 0.3s linear 0s !important;
+    -webkit-transition: all 0.3s linear 0s !important;
+    -moz-transition: all 0.3s linear 0s !important;
+    -o-transition: all 0.3s linear 0 !important;
+    display: block;
+    text-decoration: none !important;
+    &:focus,
+    &:hover,
+    &:active {
+        outline: none !important;
+        text-decoration: none;
+        box-shadow: none !important;
+    }
+}
 
+// -------all-p-tag-------
+.rs-all-paragraph-font {
+    font-size: 15px;
+    font-weight: 400;
+    color: $fc-grey;
+    letter-spacing: -0.6px !important;
+    line-height: 25px;
+}
 
-// p {
-//   font-size: 15px;
-//   font-weight: $fw-Regular;
-//   color: $fc-grey;
-//   letter-spacing: -0.8px !important;
-//   line-height: 25px;
-//   margin: 0;
-// }
+// -------all-p-tag-------
+// -------all-h2-tag-------
+.rs-titles-all-second {
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: -3px !important;
+    color: $fc-black;
+}
 
-// h2 {
-//   font-weight: 700;
-//   font-size: 45px;
-//   letter-spacing: -3px !important;
-//   color: $fc-black;
-// }
-
-// h3 {
-//   font-weight: 700;
-//   font-size: 18px;
-//   letter-spacing: -1.1px !important;
-//   color: $fc-black;
-// }
+// -------all-h2-tag-------
+.rs-all-third-title-font {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -1.1px !important;
+    color: $fc-black;
+}
 
 .rs-padding {
-  padding: 100px 0 50px;
+    padding: 100px 0 50px;
 }
 
 // ------app-btns-all
-.sr-buts-list {
-  display: inline-block;
-  margin-right: 15px;
-  a {
-    display: flex;
-    padding: 12px 35px 12px 17px;
-    background: $fc-main;
-    position: relative;
-    text-align: center;
-    // border-radius: 4px;
-    align-items: center;
-    i {
-      display: block;
-      width: 25px;
-      height: 31px;
+.rs-buts-list {
+    display: inline-block;
+    margin-right: 15px;
+    a {
+        display: flex;
+        padding: 12px 35px 12px 17px;
+        background: $fc-main;
+        position: relative;
+        align-items: center;
+        border-radius: 4px;
+        i {
+            display: block;
+            width: 25px;
+            height: 31px;
+        }
+        .apple {
+            background: url(../img/apple.svg) no-repeat;
+        }
+        .android {
+            background: url(../img/android.svg) no-repeat;
+        }
+        .sr-app-btn-main {
+            margin-left: 10px;
+            span {
+                font-size: 12px;
+                font-weight: 500;
+                color: $fc-white;
+            }
+            label {
+                display: block;
+                font-size: 15px;
+                font-weight: 700;
+                color: $fc-white;
+                margin-bottom: 0;
+            }
+        }
+        &:hover {
+            background: $blue;
+            opacity: 1;
+        }
     }
-    .apple {
-      background: url(../img/apple.svg) no-repeat;
-    }
-    .android {
-      background: url(../img/android.svg) no-repeat;
-    }
-    .sr-app-btn-main {
-      margin-left: 8px;
-      span {
-        display: block;
-        font-size: 12px;
-        font-weight: $fw-Medium;
-        color: $fc-white;
-      }
-      label {
-        display: block;
-        font-size: 15px;
-        font-weight: 700;
-        color: $fc-white;
-        margin-bottom: 0;
-      }
-    }
-    &:hover {
-      background: $blue;
-      opacity: 1;
-    }
-  }
 }
 
 // ------app-btns-all
 // ------form-alls------
-form {
-  .form-group {
-    margin-bottom: 25px;
-    .form-control {
-      padding: 14px 15px;
-      font-weight: $fw-Medium;
-      font-size: 14px;
-      background: $bg-c;
-      height: auto;
-      border: none;
-      color: $blue;
-      border-radius: 4px;
-      opacity: 1;
-      // border-radius: 4px;
-      &:focus {
-        box-shadow: none;
-      }
+.rs-all-form-main {
+    .form-group {
+        margin-bottom: 25px;
+        .form-control {
+            padding: 14px 15px;
+            font-weight: 500;
+            font-size: 14px;
+            background: $bg-c;
+            height: auto;
+            border: none;
+            color: $blue;
+            border-radius: 4px;
+            opacity: 1;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+         ::placeholder {
+            color: #d1d1d1 !important;
+        }
     }
-    ::placeholder {
-      color: #d1d1d1 !important;
-    }
-  }
 }
 
 // ------form-alls------

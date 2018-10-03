@@ -1,21 +1,20 @@
 @import "rs_variables";
 header {
-  .navbar-brand {
-    img {
-      height: 71px;
+    .navbar-brand {
+        img {
+            height: 71px;
+        }
     }
-  }
-  .rs-header-right {
-    .rs-btn-header-call {
-      text-align: left;
-      padding: 15px 35px 10px 15px;
-      font-size: 12px;
-      font-weight: 700;
-      span {
-        font-size: 15px;
-        font-weight: 700;
-        display: block;
-      }
+    .rs-header-right {
+        .rs-btn-header-call {
+            text-align: left;
+            padding: 10px 35px 10px 15px;
+            font-size: 12px;
+            font-weight: 700;
+            span {
+                font-size: 15px;
+                display: block;
+            }
+        }
     }
-  }
 }
