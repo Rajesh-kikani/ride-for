@@ -1,9 +1,21 @@
 // Body
-$enable-rounded: true;
+
+
 $blue: #0891B3;
+
+$gray-600: #3F3F3F;
+
+$enable-rounded: true;
+
 $border-radius: 4px;
-$input-btn-padding-y: 0.7rem !default;
-$input-btn-padding-x: 2.0rem !default;
-$font-size-base: 0.9375rem !default;
-$font-weight-bold: 700 !default;
+
+$input-btn-padding-y: 0.7rem;
+$input-btn-padding-x: 2.0rem;
+
+$font-family-base: "Catamaran";
+
+$font-size-base: 0.9375rem;
+$font-weight-bold: 700;
+
+$link-hover-decoration: none;
 // ------start-variables
