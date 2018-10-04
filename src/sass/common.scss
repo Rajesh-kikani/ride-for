@@ -2,7 +2,6 @@
 // body {
 //     font-family: "Catamaran";
 // }
-
 // button,
 // a {
 //     cursor: pointer;
@@ -20,103 +19,94 @@
 //         box-shadow: none !important;
 //     }
 // }
-
 // -------all-p-tag-------
 .rs-all-paragraph-font {
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: -0.6px !important;
-  line-height: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.6px !important;
+    line-height: 25px;
 }
 
 // -------all-p-tag-------
 // -------all-h2-tag-------
 .rs-titles-all-second {
-  font-weight: 700;
-  font-size: 45px;
-  letter-spacing: -3px !important;
-  color: $black;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: -3px !important;
+    color: $black;
 }
 
 // -------all-h2-tag-------
 .rs-all-third-title-font {
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: -1.1px !important;
-  color: $black;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -1.1px !important;
+    color: $black;
 }
 
 .rs-padding {
-  padding: 100px 0 50px;
+    padding: 100px 0 50px;
 }
 
 // ------app-btns-all
-// .rs-buts-list {
-//     display: inline-block;
-//     margin-right: 15px;
 .rs-btn-app {
-  > div {
-    display: flex;
-    padding: 12px 35px 12px 17px;
-    position: relative;
-    align-items: center;
-    i {
-      display: block;
-      width: 25px;
-      height: 31px;
+    >div {
+        display: flex;
+        padding: 12px 35px 12px 17px;
+        position: relative;
+        align-items: center;
+        i {
+            display: block;
+            width: 25px;
+            height: 31px;
+        }
+        .apple {
+            background: url(../img/apple.svg) no-repeat;
+        }
+        .android {
+            background: url(../img/android.svg) no-repeat;
+        }
+        .sr-app-btn-main {
+            margin-left: 10px;
+            span {
+                font-size: 12px;
+                font-weight: 500;
+                color: $white;
+            }
+            label {
+                display: block;
+                font-size: 15px;
+                font-weight: 700;
+                color: $white;
+                margin-bottom: 0;
+            }
+        }
     }
-    .apple {
-      background: url(../img/apple.svg) no-repeat;
-    }
-    .android {
-      background: url(../img/android.svg) no-repeat;
-    }
-    .sr-app-btn-main {
-      margin-left: 10px;
-      span {
-        font-size: 12px;
-        font-weight: 500;
-        color: $white;
-      }
-      label {
-        display: block;
-        font-size: 15px;
-        font-weight: 700;
-        color: $white;
-        margin-bottom: 0;
-      }
-    }
-    // &:hover {
-    //   background: $blue;
-    //   opacity: 1;
-    // }
-  }
 }
-// }
 
 // ------app-btns-all
 // ------form-alls------
 .rs-all-form-main {
-  .form-group {
-    margin-bottom: 25px;
-    .form-control {
-      padding: 14px 15px;
-      font-weight: 500;
-      font-size: 14px;
-      background: $bg-c;
-      height: auto;
-      border: none;
-      color: $blue;
-      border-radius: 4px;
-      opacity: 1;
-      &:focus {
-        box-shadow: none;
-      }
+    .form-group {
+        margin-bottom: 25px;
+        .form-control {
+            padding: 14px 15px;
+            font-weight: 500;
+            font-size: 14px;
+            background: $bg-c;
+            height: auto;
+            border: none;
+            color: $blue;
+            border-radius: 4px;
+            opacity: 1;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+         ::placeholder {
+            color: #d1d1d1 !important;
+        }
     }
-    ::placeholder {
-      color: #d1d1d1 !important;
-    }
-  }
 }
 
 // ------form-alls------
