@@ -1,8 +1,13 @@
 footer {
     background: $fc-bg;
     padding: 24px 0;
+    @include media-breakpoint-up(xs) {
+        padding: 14px 0;
+    }
     .rs-footer-main {
-        display: block;
+        @include media-breakpoint-up(xs) {
+            text-align: center;
+        }
         img {
             height: 27px;
         }
@@ -11,9 +16,15 @@ footer {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        @include media-breakpoint-up(xs) {
+            justify-content: center;
+        }
         ul {
             display: flex;
             margin: 0;
+            @include media-breakpoint-up(xs) {
+                padding: 15px 0 0;
+            }
             li {
                 display: flex;
                 a {
