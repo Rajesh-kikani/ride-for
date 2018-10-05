@@ -19,7 +19,8 @@ mix.combine(
         "src/vendor/dataTables/datatables.min.js",
         "src/vendor/jqueryui/jquery-ui.min.js",
         "src/vendor/sweetalert/sweetalert.min.js",
-        "src/vendor/validate/jquery.validate.min.js"
+        "src/vendor/validate/jquery.validate.min.js",
+        "src/vendor/swiper/swiper.min.js"
     ],
     "dist/js/vendor.js"
 );
@@ -30,6 +31,7 @@ mix.combine(
         "src/vendor/animate/animate.css",
         "src/vendor/dataTables/datatables.min.css",
         "src/vendor/jqueryui/jquery-ui.min.css",
+        "src/vendor/swiper/swiper.min.css"
         //"src/vendor/sweetalert/sweetalert.css"
     ],
     "dist/css/vendor.css"

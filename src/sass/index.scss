@@ -1,10 +1,12 @@
 #rs-page-index {
     .rs-banner-main {
-        padding-top: 100px;
-        background-position: bottom center;
+        // padding-top: 100px;
+        padding-top: 40px;
+        // background-position: bottom center;
         background: url(../img/banner-img.png)no-repeat;
         background-size: cover;
-        min-height: 100vh;
+        height: 720px;
+        // min-height: 100vh;
         .rs-text-and-img-main {
             h1 {
                 font-weight: 800;
@@ -51,17 +53,18 @@
     }
     // ----sections-02---
     .rs-features-main {
+        padding: 100px 0 60px;
         .rs-title-main-text {
             p {
-                max-width: 530px;
+                max-width: 558px;
                 margin-top: 15px;
             }
         }
         .rs-features-listing-main {
-            padding: 45px 0 0;
+            padding: 35px 0 0;
             .rs-listing-main {
                 display: flex;
-                margin-bottom: 35px;
+                margin-bottom: 20px;
                 .rs-border-main {
                     border-radius: 4px;
                     border: 1px dashed $bor-c-bg;
@@ -185,6 +188,7 @@
     }
     // ------sections-3---
     .rs-download-app {
+        padding: 115px 0 35px;
         background: $bg-c;
         .rs-download-title-main {
             p {
@@ -222,8 +226,9 @@
     }
     // ------rs-padding rs-lets-go-main
     .rs-lets-go-main {
+        padding: 150px 0 33px;
         .rs-never-miss-main {
-            padding-bottom: 30px;
+            padding-bottom: 20px;
             h2 {
                 max-width: 447px !important;
             }
@@ -231,31 +236,33 @@
                 max-width: 467px !important;
             }
             .rs-never-main {
-                margin-top: 40px;
+                margin-top: 70px;
             }
         }
         .rs-lets-go-car-slider-main {
             border: 1px solid #E5E5E5;
-            padding: 30px;
+            position: relative;
             .swiper-container {
                 width: 100%;
                 height: 100%;
                 .swiper-wrapper {
                     .swiper-slide {
-                        overflow: hidden;
-                        height: 267px;
-                        img {
-                            object-fit: contain;
-                            object-position: center center;
-                            width: auto;
-                            height: auto;
+                        .rs-cars-img-listing {
+                            overflow: hidden;
+                            padding: 35px 10px;
+                            img {
+                                object-fit: contain;
+                                object-position: center center;
+                                width: 100%;
+                            }
                         }
                     }
                 }
             }
         }
         .rs-contact-form-with-main {
-            padding: 60px 0;
+            padding: 74px 0;
+            margin-top: 60px;
             border-top: 1px solid $border;
             .rs-contact-main {
                 .rs-name-listing {
@@ -270,7 +277,7 @@
         background-size: cover;
         z-index: 10;
         position: relative;
-        padding: 100px 0;
+        padding: 100px 0 118px;
         &::before {
             top: 0;
             right: 0;
@@ -289,7 +296,7 @@
             margin: 0 auto;
         }
         .rs-images-and-listin-main {
-            padding: 65px 0 0;
+            padding: 88px 0 0;
             .rs-our-fun-facts-listing-main {
                 display: flex;
                 align-items: center;
@@ -320,6 +327,7 @@
     }
     // -------rs-testimonials-main----
     .rs-testimonials-main {
+        padding: 110px 0 25px;
         .rs-testimonials-title-main {
             p {
                 font-weight: 600;
@@ -338,6 +346,7 @@
                         .rs-client-main {
                             display: flex;
                             align-items: center;
+                            padding: 20px 0;
                             .sr-client-img {
                                 width: 70px;
                                 height: 70px;
@@ -368,6 +377,13 @@
                             }
                         }
                     }
+                }
+            }
+            .rs-testimonials-next-prev {
+                .rs-testimonials-slider-next,
+                .rs-testimonials-slider-prev {
+                    top: auto;
+                    bottom: 115px;
                 }
             }
         }
