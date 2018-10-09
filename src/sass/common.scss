@@ -18,6 +18,9 @@
     @include media-breakpoint-up(sm) {
         font-size: 33px;
     }
+    @include media-breakpoint-up(md) {
+        font-size: 39px;
+    }
     @include media-breakpoint-up(lg) {
         font-size: 45px;
     }
@@ -29,6 +32,9 @@
     font-size: 16px;
     letter-spacing: -0.5px !important;
     color: $black;
+    @include media-breakpoint-up(md) {
+        font-size: 17px
+    }
     @include media-breakpoint-up(lg) {
         font-size: 18px
     }
@@ -73,6 +79,12 @@
         @include media-breakpoint-up(lg) {
             padding: 12px 35px 12px 17px;
         }
+    }
+    @include media-breakpoint-up(md) {
+        margin-right: 0 !important;
+    }
+    @include media-breakpoint-up(lg) {
+        margin-right: 15px !important;
     }
 }
 
